@@ -14,6 +14,7 @@ h1{
     height: 3290px;
     display: flex;
     flex-direction: column;
+
 }
 header{
     height: auto;
@@ -232,7 +233,6 @@ main{
 .btnn .btn{
     background: hsl(322, 100%, 66%);
     text-transform: capitalize;
-    font-size: 15px;
     color: white;
     width: 350px;
     border-radius: 50px;
@@ -261,7 +261,7 @@ footer{
 }
 .hud{
     height: 280px;
-    width: 30%;
+    width: 33%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -271,13 +271,13 @@ footer{
     width: 18px;
 }
 .ic p{
-    width: 92%;
+    width: 88%;
 }
 .phn p{
-    width: 90.5%;
+    width: 88%;
 }
 .email p{
-    width: 90.5%;
+    width: 88%;
 }
 .hud .phn img{
     width:25px ;
@@ -331,7 +331,7 @@ li a{
 }
 @media (min-width:1242px) and (max-width:1400px) {
     .container{
-        height: 2960px;
+        height: 2940px;
     }
   .header{
     height: 650px;
@@ -343,63 +343,99 @@ li a{
     color: hsl(192, 100%, 9%);
     font-size: 15px;
   }
-.main{
-    width: 90%;
-    height: 1240px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.main1{
-    height: 370px;
-}
-.main2{
-    height: 370px;
-}
-.imgGlow{
-    width: 350px;
-}
-.imgGlow2{
-    width:350px;
-}
-.main1 .text{
-    height: 130px;
-    width: 50%;
-}
-.text .txt{
-    height: 130px;
-    width: 74.5%;
-}
-.main1 .text h1{
-    width: 100%;
-    display: flex;
-    font-size: 30px;
-}
-.main1 .text p{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    font-size: 15px;
-}
-.main2 .text{
-    height: 130px;
-    width: 50%;
-}
-.main2 .text h1{
-    width: 100%;
-    display: flex;
-    font-size: 30px;
-}
-.main2 .text p{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    font-size: 15px;
-}
+    .main{
+        width: 90%;
+        height: 1240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .main1{
+        height: 370px;
+    }
+    .main2{
+        height: 370px;
+    }
+    .imgGlow{
+        width: 350px;
+    }
+    .imgGlow2{
+        width:350px;
+    }
+    .main1 .text{
+        height: 130px;
+        width: 50%;
+    }
+    .text .txt{
+        height: 130px;
+        width: 74.5%;
+    }
+    .main1 .text h1{
+        width: 100%;
+        display: flex;
+        font-size: 30px;
+    }
+    .main1 .text p{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+    }
+    .main2 .text{
+        height: 130px;
+        width: 50%;
+    }
+    .main2 .text h1{
+        width: 100%;
+        display: flex;
+        font-size: 30px;
+    }
+    .main2 .text p{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+    }
+    footer{
+        height: 580px;
+        width: 100%;
+    }
+    .ic p{
+        font-size: 15.7px;
+    }
+    li a{
+        font-size: 15.7px;
+    }
+    .contain{
+        height: 250px;
+    }
+    .hud{
+        height: 250px;
+        width: 32%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .abt{
+        height: 250px;
+    }
+    .social{
+        height: 250px;
+    }
+    .hud img{
+        height: 23px;
+        width: 18px;
+    }
+    .hud .phn img{
+        width:22px ;
+    }
+    .hud .email img{
+        width:22px ;
+    }
 }
 @media (min-width:1024px) and (max-width:1241px) {
     .container{
-        height: 2770px;
+        height: 2400px;
     }
     .header{
       height: 560px;
@@ -491,8 +527,6 @@ li a{
         width: 100%;
         display: flex;
         font-size: 26px;
-        
-    font-size: 28px;
     }
     .main2 .text p{
         width: 100%;
@@ -500,10 +534,72 @@ li a{
         flex-direction: row;
         font-size: 12.5px;
     }
+    footer{
+        height: 500px;
+        width: 100%;
+    }
+    .ic p{
+        font-size: 12.8px;
+    }
+    li a{
+        font-size: 12.8px;
+    }
+    #imgg{
+        width: 200px;
+        height: 33px;
   }
+  .contain{
+    height: 220px;
+    }
+    .hud{
+        height: 220px;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .abt{
+        height: 220px;
+    }
+    .social{
+        height: 220px;
+    }
+    .hud img{
+        height: 23px;
+        width: 16px;
+    }
+    .hud .phn img{
+        width:20px ;
+    }
+    .hud .email img{
+        width:22px ;
+    }
+    .conRea{
+        height: 220px;
+    }
+    .ready{
+        height: 220px;
+    }
+.ready h1{
+    text-transform: capitalize;
+    font-size: 22px;
+    color: hsl(192, 100%, 9%);
+    font-weight: 600;
+    width: auto;
+}
+.btnn .btn{
+    background: hsl(322, 100%, 66%);
+    text-transform: capitalize;
+    color: white;
+    width: 300px;
+    border-radius: 50px;
+    padding: 22px 0 22px 0;
+    font-size: 17px;
+}
+}
   @media (min-width:860px) and (max-width:1023px) {
     .container{
-        height: 2395px;
+        height: 2300px;
     }
     .header{
       height: 480px;
@@ -604,11 +700,75 @@ li a{
         flex-direction: row;
         font-size: 12px;
     }
+    footer{
+        height: 470px;
+        width: 100%;
+    }
+    .ic p{
+        font-size: 11px;
+    }
+    li a{
+        font-size: 11px;
+    }
+    #imgg{
+        width: 190px;
+        height: 31px;
+   }
+  
+  .contain{
+    height: 200px;
+    }
+    .hud{
+        height: 200px;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .abt{
+        height: 200px;
+    }
+    .social{
+        height: 200px;
+    }
+    .hud img{
+        height: 21px;
+        width: 15px;
+    }
+    .hud .phn img{
+        width:20px ;
+    }
+    .hud .email img{
+        width:21px;
+    }
+    
+    .conRea{
+        height: 210px;
+    }
+    .ready{
+        height: 210px;
+    }
+    .ready h1{
+        text-transform: capitalize;
+        font-size: 19px;
+        color: hsl(192, 100%, 9%);
+        font-weight: 600;
+        width: auto;
+    }
+    .btnn .btn{
+        background: hsl(322, 100%, 66%);
+        text-transform: capitalize;
+        color: white;
+        width: 285px;
+        border-radius: 50px;
+        padding: 22px 0 22px 0;
+        font-size: 13px;
+    }
   }
 
   @media (min-width:767px) and (max-width:859px) {
     .container{
-        height: 2250px;
+        height: 2177px;
     }
     .header{
       height: 430px;
@@ -709,6 +869,60 @@ li a{
         display: flex;
         flex-direction: row;
         font-size: 10px;
+    }
+    footer{
+        height: 420px;
+        width: 100%;
+    }
+    .ic p{
+        font-size: 9px;
+    }
+    li a{
+        font-size: 9px;
+    }
+    #imgg{
+        width: 180px;
+        height: 30px;
+   }
+  
+  .contain{
+    height: 180px;
+    }
+    .hud{
+        height: 180px;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .abt{
+        height: 180px;
+    }
+    .social{
+        height: 180px;
+    }
+    
+    .hud img{
+        height: 20px;
+        width: 16px;
+    }
+    .hud .phn img{
+        width:19px ;
+    }
+    .hud .email img{
+        width:21px;
+    }
+    .conRea{
+        height: 190px;
+    }
+    .ready{
+        height: 190px;
+    }
+    .ready h1{
+        font-size: 17px;
+    }
+    .btnn .btn{
+        font-size: 12px;
     }
   }
 

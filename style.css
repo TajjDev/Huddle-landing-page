@@ -7,10 +7,11 @@
 }
 h1{
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 .container{
     width: 100%;
-    height: 3000px;
+    height: 3290px;
     display: flex;
     flex-direction: column;
 }
@@ -218,10 +219,10 @@ main{
 }
 .ready h1{
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 25px;
     color: hsl(192, 100%, 9%);
     font-weight: 600;
-    width: 495px;
+    width: auto;
 }
 .btnn{
     display: flex;
@@ -239,16 +240,98 @@ main{
     font-size: 18px;
 }
 footer{
-    height: 600px;
+    height: 640px;
     width: 100%;
     background-color: hsl(192, 100%, 9%);
     position: relative;
     top: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+.contain{
+    width: 90%;
+    height: 280px;
+    color: hsl(209, 18%, 77%);
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hud{
+    height: 280px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hud img{
+    height: 25px;
+    width: 18px;
+}
+.ic p{
+    width: 92%;
+}
+.phn p{
+    width: 90.5%;
+}
+.email p{
+    width: 90.5%;
+}
+.hud .phn img{
+    width:25px ;
+}
+.hud .email img{
+    width:25px ;
+}
+#imgg{
+    width: 230px;
+    height: 35px;
+}
+.ic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
+}
+.abt{
+    height: 280px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.conAbt{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.o1st{
+    width: 35%;
+
+}
+.t2nd{
+    width: 30%;
+}
+.social{
+    height: 280px;
+    width: 30%;
+    border: 1px solid black;
+}
+li{
+    list-style: none;
+    margin-bottom: 20px
+}
+li a{
+    color:hsl(209, 18%, 77%) ;
+    text-decoration: none;;
+}
 @media (min-width:1242px) and (max-width:1400px) {
     .container{
-        height: 2530px;
+        height: 2960px;
     }
   .header{
     height: 650px;
@@ -259,7 +342,7 @@ footer{
   .text1 p{
     color: hsl(192, 100%, 9%);
     font-size: 15px;
-}
+  }
 .main{
     width: 90%;
     height: 1240px;
@@ -316,7 +399,7 @@ footer{
 }
 @media (min-width:1024px) and (max-width:1241px) {
     .container{
-        height: 2030px;
+        height: 2770px;
     }
     .header{
       height: 560px;
@@ -420,7 +503,7 @@ footer{
   }
   @media (min-width:860px) and (max-width:1023px) {
     .container{
-        height: 1750px;
+        height: 2395px;
     }
     .header{
       height: 480px;
@@ -525,7 +608,7 @@ footer{
 
   @media (min-width:767px) and (max-width:859px) {
     .container{
-        height: 1650px;
+        height: 2250px;
     }
     .header{
       height: 430px;

@@ -1464,9 +1464,12 @@ li a{
         font-size: 7px;
     }
   }
-  @media (min-width:375px) and (max-width:425px) {
+  @media (min-width:375px) and (max-width:430px) {
     .main2 h1{
         font-size: 1px;
+    }
+    .container{
+    height: 3310px;
     }
     .buildpp{
     display: none;
@@ -1563,6 +1566,179 @@ li a{
     }
     img{
         width: 100%;
+    }
+    main{
+        height: 1560px;
+    }
+    .main{
+        height: 1560px;
+        width: 89%;
+    }
+    .main2{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 480px;
+    }
+    .main2 h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .main1{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 480px;
+    }
+    .main1 h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    .main .text{
+        width: 85%;
+        height: 155px;
+        margin: 0;
+        align-items: center;
+
+    }
+    .main .text .txt{
+        width: 100%;
+        /* height: 155px;/ */
+    }
+    .glow .txt{
+        height: 135px;
+    }
+    
+    .flowing .txt{
+        height: 118px;
+    }
+    .main .pip{
+        display: none;
+    }
+    .main .txt .mainP{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        text-align: center;
+    }
+    .main .imgGlow{
+        width: 72%;
+        height: 200px;
+        margin-right: 0;
+    }
+    .main .imgGlow2{
+        width: 72%;
+        height: 200px;
+        margin-left: 0;
+    }
+    main{
+        top: 55px;
+    }
+    .conRea{
+        top:150px;
+        height: 150px;
+    }
+    .ready{
+        width: 90%;
+        height: 150px;
+    }
+    .ready h1{
+        font-size: 18px;
+    }
+    .btnn .btn{
+        padding: 13px 0 13px 0;
+        width: 70%;
+        font-size: 12px;
+    }
+    footer{
+        top: 90px;
+        height: 780px;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    .contain{
+        flex-direction: column;
+        height: 640px;
+        justify-content: space-between;
+    }
+    .hud{
+        width: 100%;
+        height:220px ;
+    }
+    .hud #imgg{
+        width: 175px;
+        height: 27px;
+    }
+    .abt{
+        width: 100%;
+        height:240px ;
+    }
+    .social{
+        width: 100%;
+        height:70px ;
+    }
+    .ic p{
+        font-size: 15px;
+        width: 100%;
+    }
+    .hud .ic p{
+        width: 90%;
+    }
+    .hud img{
+        width: 12px;
+        height: 17px;
+    }
+    .hud .phn img{
+        width: 16px;
+        height: 18px;
+    }
+    .hud .email img{
+        width: 18px;
+        height: 16px;
+    }
+    .conAbt{
+        flex-direction: column;
+        font-size: 18px;
+        height:240px ;
+    }
+    #lii{
+        margin-bottom: 0;
+    }
+    .soc{
+        width: 100%;
+    }
+    .soc .logoSoc{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .logoSoc .logg{
+        width: 40%;
+    }
+    .logg li{
+        margin-bottom: 0;
+    }
+    .logoo{
+    width: 16px;
+    height: 16px;
+    }
+    .cop p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .cha{
+        flex-direction: column;
+        justify-content: flex-end;
+        display: flex;
+    }
+    .cha p{
+        font-size: 10px;
+        text-align: center;
+        color: white;
+    }
+    .cha span a{
+        color:hsl( 208, 11%, 55%);
+        text-decoration: none;
     }
   } 
   @media (min-width:342px) and (max-width:375px) {
@@ -1797,7 +1973,7 @@ li a{
     .conAbt{
         flex-direction: column;
         font-size: 16px;
-        height:240px ;
+        height:230px ;
     }
     #lii{
         margin-bottom: 0;
@@ -1840,9 +2016,10 @@ li a{
         text-decoration: none;
     }
 }
-  @media (min-width:300px) and (max-width:341px) {
-    .main2 h1{
-        font-size: 1px;
+  @media (min-width:280px) and (max-width:341px) {
+    
+    .container{
+        height: 3190px;
     }
     .buildpp{
     display: none;
@@ -1913,7 +2090,7 @@ li a{
     }
     .buildP {
         display: inline;
-        font-size: 14px;
+        font-size: 13px;
         justify-content: center;
         text-align: center;
     }
@@ -1939,10 +2116,178 @@ li a{
     img{
         width: 100%;
     }
+    main{
+        height: 1560px;
+    }
+    .main{
+        height: 1560px;
+        width: 89%;
+    }
+    .main2{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 480px;
+    }
+    .main2 h1{
+        font-size: 19px;
+        text-align: center;
+    }
+    
+    .main1{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 480px;
+    }
+    .main1 h1{
+        font-size: 19px;
+        text-align: center;
+    }
+    .main .text{
+        width: 85%;
+        height: 155px;
+        margin: 0;
+        align-items: center;
+
+    }
+    .main .text .txt{
+        width: 100%;
+        /* height: 155px;/ */
+    }
+    .glow .txt{
+        height: 135px;
+    }
+    
+    .flowing .txt{
+        height: 118px;
+    }
+    .main .pip{
+        display: none;
+    }
+    .main .txt .mainP{
+        display: flex;
+        flex-direction: column;
+        font-size: 11.7px;
+        text-align: center;
+    }
+    .main .imgGlow{
+        width: 72%;
+        height: 200px;
+        margin-right: 0;
+    }
+    .main .imgGlow2{
+        width: 72%;
+        height: 200px;
+        margin-left: 0;
+    }
+    main{
+        top: 55px;
+    }
+    .conRea{
+        top:150px;
+        height: 140px;
+    }
+    .ready{
+        width: 90%;
+        height: 140px;
+    }
+    .ready h1{
+        font-size: 13.5px;
+    }
+    .btnn .btn{
+        padding: 12px 0 12px 0;
+        width: 70%;
+        font-size: 10px;
+    }
+    footer{
+        top: 90px;
+        height: 780px;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    .contain{
+        flex-direction: column;
+        height: 640px;
+        justify-content: space-between;
+    }
+    .hud{
+        width: 100%;
+        height:220px ;
+    }
+    .hud #imgg{
+        width: 155px;
+        height: 24px;
+    }
+    .abt{
+        width: 100%;
+        height:240px ;
+    }
+    .social{
+        width: 100%;
+        height:70px ;
+    }
+    .ic p{
+        font-size: 12px;
+        width: 100%;
+    }
+    .hud .ic p{
+        width: 90%;
+    }
+    .hud img{
+        width: 10px;
+        height: 14px;
+    }
+    .hud .phn img{
+        width: 14px;
+        height: 14px;
+    }
+    .hud .email img{
+        width: 16px;
+        height: 14px;
+    }
+    .conAbt{
+        flex-direction: column;
+        font-size: 14px;
+        height:210px ;
+    }
+    #lii{
+        margin-bottom: 0;
+    }
+    .soc{
+        width: 100%;
+    }
+    .soc .logoSoc{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .logoSoc .logg{
+        width: 40%;
+    }
+    .logg li{
+        margin-bottom: 0;
+    }
+    .logoo{
+    width: 15px;
+    height: 15px;
+    }
+    .cop p {
+        font-size: 11px;
+        text-align: center;
+    }
+    .cha{
+        flex-direction: column;
+        justify-content: flex-end;
+        display: flex;
+    }
+    .cha p{
+        font-size: 8px;
+        text-align: center;
+        color: white;
+    }
+    .cha span a{
+        color:hsl( 208, 11%, 55%);
+        text-decoration: none;
+    }
   }
   
-
-
-
-
-

@@ -5,6 +5,21 @@
     width: 100%;
     font-family: 'Open Sans';
 }
+.cha{
+    display: none;
+}
+.main .mainP{
+    display: none;
+}
+.buildP{
+    display: none;
+}
+.btnMob{
+    display: none;
+}
+.build1{
+    display: none;
+}
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -17,7 +32,7 @@ h1{
 
 }
 header{
-    height: auto;
+    height: 700px;
     width: 100%;
     background-image: linear-gradient(hsla(194, 57%, 77%, 0.301),
      hsla(194, 57%, 77%, 0.301)), url(./images/bg-hero-desktop.svg);
@@ -29,7 +44,7 @@ header{
     justify-content: center;
 }
 .header{
-    height: 700px;
+    /* height: 700px; */
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -86,7 +101,7 @@ button{
     font-weight: 600;
 }
 .text1 p{
-    color: hsl(192, 100%, 9%);
+    color: hsl(192, 95%, 7%);
 }
 p{
     font-size: 18px;
@@ -155,7 +170,7 @@ main{
 }
 .main1 .text p{
     width: 100%;
-    color: hsl( 208, 11%, 55%);
+    color: hsl(210, 14%, 62%);
     font-size: 17px;
 }
 .imgGlow{
@@ -177,7 +192,7 @@ main{
 }
 .main2 .text p{
     width: 100%;
-    color: hsl( 208, 11%, 55%);
+    color: hsl( 2010, 14%, 62%);
     font-size: 17px;
 }
 .main2{
@@ -372,6 +387,12 @@ li a{
     .container{
         height: 2940px;
     }
+    header{
+        height: auto;
+    }
+     .mainP{
+        display: none;
+    }
   .header{
     height: 650px;
   }  
@@ -406,7 +427,7 @@ li a{
         width: 50%;
     }
     .text .txt{
-        height: 130px;
+        height: 115px;
         width: 74.5%;
     }
     .main1 .text h1{
@@ -414,7 +435,7 @@ li a{
         display: flex;
         font-size: 30px;
     }
-    .main1 .text p{
+    .main1 .text .pip{
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -487,7 +508,13 @@ li a{
 }
 @media (min-width:1024px) and (max-width:1241px) {
     .container{
-        height: 2400px;
+        height: 2565px;
+    }
+    .main .mainP{
+        display: none;
+    }
+    header{
+        height: auto;
     }
     .header{
       height: 560px;
@@ -556,7 +583,7 @@ li a{
         width: 50%;
     }
     .text .txt{
-        height: 100px;
+        height: 95px;
         width: 72%;
     }
     .main1 .text h1{
@@ -564,7 +591,7 @@ li a{
         display: flex;
         font-size: 26px;
     }
-    .main1 .text p{
+    .main1 .text .pip{
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -589,6 +616,7 @@ li a{
     footer{
         height: 500px;
         width: 100%;
+        top: 145px;
     }
     .ic p{
         font-size: 12.8px;
@@ -628,6 +656,7 @@ li a{
     }
     .conRea{
         height: 220px;
+        top: 210px;
     }
     .ready{
         height: 220px;
@@ -640,11 +669,7 @@ li a{
     width: auto;
 }
 .btnn .btn{
-    background: hsl(322, 100%, 66%);
-    text-transform: capitalize;
-    color: white;
     width: 300px;
-    border-radius: 50px;
     padding: 22px 0 22px 0;
     font-size: 17px;
 }
@@ -664,7 +689,13 @@ li a{
 }
   @media (min-width:860px) and (max-width:1023px) {
     .container{
-        height: 2300px;
+        height: 2210px;
+    }
+    .main .mainP{
+        display: none;
+    }
+    header{
+        height: auto;
     }
     .header{
       height: 480px;
@@ -698,6 +729,10 @@ li a{
     }
     .try{
         width: 190px;
+    }
+    .try button{
+        padding: 10.5px 0 10.5px 0;
+        font-size: 12px;
     }
     button{
         width: 190px;
@@ -736,7 +771,7 @@ li a{
         width: 50%;
     }
     .text .txt{
-        height: 80px;
+        height: 90px;
         width: 82%;
     }
     .main1 .text h1{
@@ -744,7 +779,7 @@ li a{
         display: flex;
         font-size: 20px;
     }
-    .main1 .text p{
+    .main1 .text .pip{
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -768,6 +803,7 @@ li a{
     footer{
         height: 470px;
         width: 100%;
+        top: 130px;
     }
     .ic p{
         font-size: 11px;
@@ -809,6 +845,7 @@ li a{
     
     .conRea{
         height: 210px;
+        top: 200px;
     }
     .ready{
         height: 210px;
@@ -824,9 +861,9 @@ li a{
         background: hsl(322, 100%, 66%);
         text-transform: capitalize;
         color: white;
-        width: 285px;
+        width: 270px;
         border-radius: 50px;
-        padding: 22px 0 22px 0;
+        padding: 19px 0 19px 0;
         font-size: 13px;
     }
     .soc{
@@ -844,18 +881,24 @@ li a{
     }
   }
 
-  @media (min-width:767px) and (max-width:859px) {
+  @media (min-width:769px) and (max-width:859px) {
     .container{
-        height: 2177px;
+        height: 2007px;
+    }
+    .main .mainP{
+        display: none;
+    }
+    header{
+        height: auto;
     }
     .header{
       height: 430px;
     }  
     .text1{
-      height: 200px;
+      height: 170px;
     }
     .text1 h1{
-        font-size: 23px;
+        font-size: 24px;
       }
     .build{
         text-transform: capitalize;
@@ -881,10 +924,17 @@ li a{
     .try{
         width: 170px;
     }
+    .try button{
+        padding: 10.5px 0 10.5px 0;
+        font-size: 12px;
+    }
     button{
         width: 170px;
         font-size: 14px;
         padding: 11px 0 11px 0;
+    }
+    main{
+        top: 80px;
     }
     .main{
         width: 90%;
@@ -926,7 +976,7 @@ li a{
         font-size: 20px;
         display: flex;
     }
-    .main1 .text p{
+    .main1 .text .pip{
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -951,6 +1001,7 @@ li a{
     footer{
         height: 420px;
         width: 100%;
+        top: 99px;
     }
     .ic p{
         font-size: 9px;
@@ -992,6 +1043,7 @@ li a{
     }
     .conRea{
         height: 190px;
+        top: 170px;
     }
     .ready{
         height: 190px;
@@ -1001,6 +1053,8 @@ li a{
     }
     .btnn .btn{
         font-size: 12px;
+        padding: 14px 0 14px 0;
+        width: 250px;
     }
     .soc{
         height: 150px;
@@ -1016,5 +1070,879 @@ li a{
         font-size: 9px;
     }
   }
+  @media (min-width:671px) and (max-width:768px) {
+    .container{
+        height: 1645px;
+    }
+    .main .mainP{
+        display: none;
+    }
+    header{
+        height: auto;
+    }
+    .header{
+      height: 380px;
+    }  
+    .text1{
+      height: 160px;
+    }
+    .text1 h1{
+        font-size: 22px;
+      }
+    .build{
+        text-transform: capitalize;
+        font-size: 23px;
+        color: hsl(192, 100%, 9%);
+    }
+    .text1 p{
+        color: hsl(192, 100%, 9%);
+        font-size: 8px;
+    }
+    .btn{
+        font-size: 10px;
+        width: 160px;
+    }
+    .logo{
+        width: 140px;
+    }
+    .logo img{
+        height: 20px;
+        width: 140px;
+        
+    }
+    .try{
+        width: 170px;
+    }
+    .try button{
+        padding: 11px 0 11px 0;
+        font-size: 9px;
+    }
+    button{
+        width: 170px;
+        font-size: 14px;
+        padding: 11px 0 11px 0;
+    }
+    main{
+        top: 50px;
+    }
+    .main{
+        width: 90%;
+        height: 660px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .main1{
+        height: 190px;
+    }
+    .main2{
+        height: 190px;
+    }
+    .imgGlow{
+        height: 220px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imgGlow img{
+        height: 160px;
+        width: 200px;
+    }
+    .imgGlow2{
+        height: 250px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imgGlow2 img{
+        height: 160px;
+        width: 200px;
+    }
+    .main1 .text{
+        height: 80px;
+        width: 50%;
+    }
+    .text .txt{
+        height: 65px;
+        width: 82%;
+    }
+    .main1 .text h1{
+        width: 100%;
+        font-size: 16px;
+        display: flex;
+    }
+    .main1 .text .pip{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        font-size: 8px;
+
+    }
+    .main2 .text{
+        height: 80px;
+        width: 50%;
+    }
+    .main2 .text h1{
+        width: 100%;
+        font-size: 16px;
+        display: flex;
+    }
+    .main2 .text p{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        font-size: 8px;
+    }
+    footer{
+        height: 350px;
+        width: 100%;
+        top: 65px;
+    }
+    .ic p{
+        font-size: 8px;
+    }
+    li a{
+        font-size: 8px;
+    }
+    #imgg{
+        width: 140px;
+        height: 23px;
+   }
+  
+  .contain{
+    height: 140px;
+    }
+    .hud{
+        height: 140px;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .abt{
+        height: 140px;
+    }
+    .social{
+        height: 140px;
+    }
+    
+    .hud img{
+        height: 12px;
+        width: 9px;
+    }
+    .hud .phn img{
+        width:12px ;
+    }
+    .hud .email img{
+        width:14px;
+    }
+    .conRea{
+        height: 190px;
+        top: 150px;
+    }
+    .ready{
+        height: 150px;
+    }
+    .ready h1{
+        font-size: 15px;
+    }
+    .btnn .btn{
+        font-size: 11px;
+        padding: 13px 0 13px 0;
+        width: 220px;
+    }
+    .soc{
+        height: 148px;
+    }
+    .logoo{
+        width: 10px;
+        height: 10px;
+        border: 1px solid white;
+        padding: 3px;
+        border-radius: 50px;
+    }
+    .cop p{
+        font-size: 8px;
+    }
+  }
+  @media (min-width:600px) and (max-width:670px) {
+    .container{
+        height: 1501px;
+    }
+    .main .mainP{
+        display: none;
+    }
+    header{
+        height: auto;
+    }
+    .header{
+      height: 350px;
+    }  
+    .text1{
+      height: 140px;
+    }
+    .text1 h1{
+        font-size: 19px;
+      }
+    .build{
+        text-transform: capitalize;
+        font-size: 23px;
+        color: hsl(192, 100%, 9%);
+    }
+    .text1 p{
+        color: hsl(192, 100%, 9%);
+        font-size: 7px;
+    }
+    .try button{
+        padding: 9px 0 9px 0;
+        font-size: 8px;
+    }
+    .btn{
+        font-size: 8px;
+        width: 160px;
+        padding: 9px 0 9px 0;
+    }
+    .logo{
+        width: 140px;
+    }
+    .logo img{
+        height: 20px;
+        width: 140px;
+        
+    }
+    .try{
+        width: 170px;
+    }
+    button{
+        width: 165px;
+        padding: 11px 0 11px 0;
+    }
+    main{
+        top: 50px;
+    }
+    .main{
+        width: 90%;
+        height: 660px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .main1{
+        height: 190px;
+    }
+    .main2{
+        height: 190px;
+    }
+    .imgGlow{
+        height: 220px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imgGlow img{
+        height: 160px;
+        width: 200px;
+    }
+    .imgGlow2{
+        height: 250px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imgGlow2 img{
+        height: 160px;
+        width: 200px;
+    }
+    .main1 .text{
+        height: 80px;
+        width: 50%;
+    }
+    .text .txt{
+        height: 60px;
+        width: 82%;
+    }
+    .main1 .text h1{
+        width: 100%;
+        font-size: 14px;
+        display: flex;
+    }
+    .main1 .text .pip{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        font-size: 8px;
+
+    }
+    .main2 .text{
+        height: 80px;
+        width: 50%;
+    }
+    .main2 .text h1{
+        width: 100%;
+        font-size: 14px;
+        display: flex;
+    }
+    .main2 .text p{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        font-size: 8px;
+    }
+    footer{
+        height: 280px;
+        width: 100%;
+        top: 32px;
+    }
+    .ic p{
+        font-size: 7px;
+    }
+    li a{
+        font-size: 7px;
+    }
+    #imgg{
+        width: 120px;
+        height: 20px;
+   }
+  
+  .contain{
+    height: 115px;
+    }
+    .hud{
+        height: 115px;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .abt{
+        height: 115px;
+    }
+    .social{
+        height: 115px;
+    }
+    
+    .hud img{
+        height: 13px;
+        width: 9px;
+    }
+    .hud .phn img{
+        width:12px ;
+    }
+    .hud .email img{
+        width:14px;
+    }
+    .conRea{
+        height: 180px;
+        top: 120px;
+    }
+    .ready{
+        height: 130px;
+    }
+    .ready h1{
+        font-size: 11px;
+    }
+    .btnn .btn{
+        font-size: 10px;
+        padding: 10px 0 10px 0;
+        width: 150px;
+    }
+    .soc{
+        height: 148px;
+    }
+    .logoo{
+        width: 8px;
+        height: 8px;
+        border: 1px solid white;
+        padding: 2px;
+        border-radius: 50px;
+    }
+    .cop p{
+        font-size: 7px;
+    }
+  }
+  @media (min-width:375px) and (max-width:425px) {
+    .main2 h1{
+        font-size: 1px;
+    }
+    .buildpp{
+    display: none;
+    }
+    .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+    header{
+        height: 730px;
+        width: 100%;
+        background-image: linear-gradient(hsla(195, 67%, 88%, 0.568),
+         hsla(194, 57%, 77%, 0.301)), url(./images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .header{
+        justify-content: space-evenly;
+    }
+    .try{
+        width: 120px;
+    }
+    .try button{
+        box-shadow: 1px 1px 4px hsl(193, 15%, 75%)
+    }
+    .btn{
+        width: 50px;
+    }.content{
+        height: 580px;
+    }
+    nav{
+        height: 40px;
+        align-items: start;
+    }
+    .logo{
+        height: 18px;
+    }
+    .logo img{
+        width: 110px;
+        height: 16px;
+    }
+    .try button {
+        width: 120px;
+        font-size: 11px;
+        font-weight: 700;
+        padding: 7px 0 7px 0;
+    }.text1{
+        width: 97%;
+        height: 300px;
+    }
+    .build{
+        display: none;
+    }
+    .build1{
+        justify-content: center;
+        display: inherit;
+        text-transform: capitalize;
+        font-size: 24px;
+        color: hsl(192, 100%, 9%);
+        font-weight: 600;
+        text-align: center
+    }
+    .buildP {
+        display: inline;
+        font-size: 17.5px;
+        justify-content: center;
+        text-align: center;
+    }
+    .text1 .btn{
+        display: none;
+    }
+    .btnMob{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .btnMob .btnn{ 
+    background: hsl(322, 100%, 66%);
+    text-transform: capitalize;
+    padding: 10px 0 10px 0;
+    font-size: 13px;
+    color: white;
+    width: 78%;
+    }
+    .img{
+        width: 90%;
+    }
+    img{
+        width: 100%;
+    }
+  } 
+  @media (min-width:342px) and (max-width:375px) {
+    .container{
+        height: 3280px;
+
+    }
+    .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+    header{
+        height: 700px;
+        width: 100%;
+        background-image: linear-gradient(hsla(195, 67%, 88%, 0.568),
+         hsla(194, 57%, 77%, 0.301)), url(./images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .header{
+        justify-content: space-evenly;
+    }
+    .try{
+        width: 120px;
+    }
+    .try button{
+        box-shadow: 1px 1px 4px hsl(193, 15%, 75%)
+    }
+    .btn{
+        width: 50px;
+    }.content{
+        height: 540px;
+    }
+    nav{
+        height: 70px;
+        align-items: start;
+    }
+    .logo{
+        height: 18px;
+    }
+    .logo img{
+        width: 110px;
+        height: 16px;
+    }
+    .try button {
+        width: 120px;
+        font-size: 11px;
+        font-weight: 700;
+        padding: 7px 0 7px 0;
+    }.text1{
+        width: 97%;
+        height: 300px;
+    }
+    .build{
+        display: none;
+    }
+    .buildpp{
+    display: none;
+    }
+    .build1{
+        justify-content: center;
+        display: inherit;
+        text-transform: capitalize;
+        font-size: 24px;
+        color: hsl(192, 100%, 9%);
+        font-weight: 600;
+        text-align: center
+    }
+    .buildP {
+        display: inline;
+        font-size: 16px;
+        justify-content: center;
+        text-align: center;
+    }
+    .text1 .btn{
+        display: none;
+    }
+    .btnMob{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .btnMob .btnn{ 
+    background: hsl(322, 100%, 66%);
+    text-transform: capitalize;
+    padding: 10px 0 10px 0;
+    font-size: 13px;
+    color: white;
+    width: 78%;
+    }
+    .img{
+        width: 90%;
+    }
+    img{
+        width: 100%;
+    }
+    main{
+        height: 1560px;
+    }
+    .main{
+        height: 1560px;
+        width: 89%;
+    }
+    .main2{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 480px;
+    }
+    .main2 h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .main1{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 480px;
+    }
+    .main1 h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .main .text{
+        width: 85%;
+        height: 155px;
+        margin: 0;
+        align-items: center;
+
+    }
+    .main .text .txt{
+        width: 100%;
+        /* height: 155px;/ */
+    }
+    .glow .txt{
+        height: 135px;
+    }
+    
+    .flowing .txt{
+        height: 118px;
+    }
+    .main .pip{
+        display: none;
+    }
+    .main .txt .mainP{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        text-align: center;
+    }
+    .main .imgGlow{
+        width: 72%;
+        height: 200px;
+        margin-right: 0;
+    }
+    .main .imgGlow2{
+        width: 72%;
+        height: 200px;
+        margin-left: 0;
+    }
+    main{
+        top: 55px;
+    }
+    .conRea{
+        top:150px;
+        height: 150px;
+    }
+    .ready{
+        width: 90%;
+        height: 150px;
+    }
+    .ready h1{
+        font-size: 16.5px;
+    }
+    .btnn .btn{
+        padding: 13px 0 13px 0;
+        width: 70%;
+        font-size: 10px;
+    }
+    footer{
+        top: 90px;
+        height: 780px;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    .contain{
+        flex-direction: column;
+        height: 640px;
+        justify-content: space-between;
+    }
+    .hud{
+        width: 100%;
+        height:220px ;
+    }
+    .hud #imgg{
+        width: 160px;
+        height: 25px;
+    }
+    .abt{
+        width: 100%;
+        height:240px ;
+    }
+    .social{
+        width: 100%;
+        height:70px ;
+    }
+    .ic p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .hud .ic p{
+        width: 90%;
+    }
+    .hud img{
+        width: 12px;
+        height: 17px;
+    }
+    .hud .phn img{
+        width: 16px;
+        height: 18px;
+    }
+    .hud .email img{
+        width: 18px;
+        height: 16px;
+    }
+    .conAbt{
+        flex-direction: column;
+        font-size: 16px;
+        height:240px ;
+    }
+    #lii{
+        margin-bottom: 0;
+    }
+    .soc{
+        width: 100%;
+    }
+    .soc .logoSoc{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .logoSoc .logg{
+        width: 40%;
+    }
+    .logg li{
+        margin-bottom: 0;
+    }
+    .logoo{
+    width: 15px;
+    height: 15px;
+    }
+    .cop p {
+        font-size: 12px;
+        text-align: center;
+    }
+    .cha{
+        flex-direction: column;
+        justify-content: flex-end;
+        display: flex;
+    }
+    .cha p{
+        font-size: 10px;
+        text-align: center;
+        color: white;
+    }
+    .cha span a{
+        color:hsl( 208, 11%, 55%);
+        text-decoration: none;
+    }
+}
+  @media (min-width:300px) and (max-width:341px) {
+    .main2 h1{
+        font-size: 1px;
+    }
+    .buildpp{
+    display: none;
+    }
+    .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+    header{
+        height: 620px;
+        width: 100%;
+        background-image: linear-gradient(hsla(195, 67%, 88%, 0.568),
+         hsla(194, 57%, 77%, 0.301)), url(./images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .header{
+        justify-content: space-evenly;
+    }
+    .try{
+        width: 120px;
+    }
+    .try button{
+        box-shadow: 1px 1px 4px hsl(193, 15%, 75%)
+    }
+    .btn{
+        width: 50px;
+    }.content{
+        height: 500px;
+    }
+    nav{
+        height: 40px;
+    }
+    .logo{
+        height: 18px;
+    }
+    .logo img{
+        width: 110px;
+        height: 16px;
+    }
+    .try button {
+        width: 120px;
+        font-size: 10px;
+        font-weight: 700;
+        padding: 6px 0 6px 0;
+    }.text1{
+        width: 97%;
+        height: 280px;
+    }
+    .build{
+        display: none;
+    }
+    .build1{
+        justify-content: center;
+        display: inherit;
+        text-transform: capitalize;
+        font-size: 23px;
+        color: hsl(192, 100%, 9%);
+        font-weight: 600;
+        text-align: center
+    }
+    .buildP {
+        display: inline;
+        font-size: 14px;
+        justify-content: center;
+        text-align: center;
+    }
+    .text1 .btn{
+        display: none;
+    }
+    .btnMob{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .btnMob .btnn{ 
+    background: hsl(322, 100%, 66%);
+    text-transform: capitalize;
+    padding: 10px 0 10px 0;
+    font-size: 12px;
+    color: white;
+    width: 78%;
+    }
+    .img{
+        width: 90%;
+    }
+    img{
+        width: 100%;
+    }
+  }
+  
+
+
+
 
 
